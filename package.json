@@ -12,6 +12,7 @@
     "autoprefixer": "^9",
     "core-js": "^3.6.5",
     "postcss": "^7",
+    "socket.io-client": "^4.0.1",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
     "timeout-as-promise": "^1.0.0",
     "vue": "^2.6.11",

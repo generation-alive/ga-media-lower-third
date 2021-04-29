@@ -36,8 +36,6 @@ const actions = {
     })
 
     await delay(transitionTime || getters.activeLowerThird?.transitionTime || 0)
-
-    commit('updateActiveLowerThird', null)
   }
 
 }
