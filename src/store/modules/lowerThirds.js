@@ -4,7 +4,8 @@ const namespaced = true
 
 // {
 //   show: true,
-//   text: 'FOO'
+//   text: 'FOO',
+//   transitionTime: 1000
 // }
 
 const state = () => ({
