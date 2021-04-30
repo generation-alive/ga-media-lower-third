@@ -23,11 +23,10 @@ const mutations = {
 }
 
 const actions = {
-  async startLowerThird ({ commit }, { text, transitionTime = 1000 } = {}) {
+  async startLowerThird ({ commit }, payload = {}) {
     commit('updateActiveLowerThird', {
       show: true,
-      text,
-      transitionTime
+      ...payload
     })
   },
   async stopLowerThird ({ commit, getters }, { transitionTime } = {}) {
